@@ -63,7 +63,27 @@
                   }
                 }
               ]
-            }
+            },
+            {
+  "type": "label",
+  "text": "refresh",
+  "action": {
+    "type": "$network.request",
+    "options": {
+      "url": "https://jasonbase.com/things/jYJ.json"
+    },
+    "success": {
+      "type": "$render"
+    },
+    "error": {
+      "type": "$util.banner",
+      "options": {
+        "title": "Error",
+        "description": "Something went wrong."
+      }
+    }
+  }
+}
           ]
         }
       ]
