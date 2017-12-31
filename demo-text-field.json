@@ -63,56 +63,6 @@
                   }
                 }
               ]
-            },
-            {
-              "type": "horizontal",
-              "style": {
-                "background": "#ffffff",
-                "align": "center"
-              },
-              "components": [
-                {
-                  "type": "textfield",
-                  "style": {
-                    "secure": "true"
-                  },
-                  "placeholder": "Secure field",
-                  "name": "secure"
-                },
-                {
-                  "type": "button",
-                  "text": "Done",
-                  "style": {
-                    "width": "60",
-                    "color": "#ffffff",
-                    "background": "#0000ff"
-                  },
-                  "action": {
-                    "type": "$util.banner",
-                    "options": {
-                      "title": "Selected secure value",
-                      "description": "{{$get.secure}}"
-                    }
-                  }
-                }
-              ]
-            },
-                        {
-              "type": "horizontal",
-              "style": {
-                "background": "#ffffff",
-                "align": "center"
-              },
-              "components": [
-                {
-                  "type": "textfield",
-                  "style": {
-                    "border_color": "#000000"
-                  },
-                  "placeholder": "field with border",
-                  "name": "border"
-                }
-              ]
             }
           ]
         }
